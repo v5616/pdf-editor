@@ -8,23 +8,24 @@
     "start": "next start"
   },
   "dependencies": {
+    "fabric": "^5.3.0",
+    "file-saver": "^2.0.5",
     "next": "14.2.3",
-    "react": "^18",
-    "react-dom": "^18",
     "pdf-lib": "^1.17.1",
     "pdfjs-dist": "^4.2.67",
+    "react": "^18",
+    "react-dom": "^18",
     "react-dropzone": "^14.2.3",
-    "fabric": "^5.3.0",
-    "file-saver": "^2.0.5"
+    "resend": "^6.12.3"
   },
   "devDependencies": {
+    "@types/file-saver": "^2.0.7",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "@types/file-saver": "^2.0.7",
-    "typescript": "^5",
-    "tailwindcss": "^3.4.1",
+    "autoprefixer": "^10",
     "postcss": "^8",
-    "autoprefixer": "^10"
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
   }
 }
