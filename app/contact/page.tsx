@@ -171,7 +171,7 @@ function Field({ label, required, children }: { label: string; required?: boolea
 const contactInfo = [
   {
     title: "Email",
-    value: "support@pdfedit.app",
+    value: "support@nexpdf.app",
     bg: "bg-blue-50",
     icon: (
       <svg className="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
