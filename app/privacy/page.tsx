@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy · PDFEdit",
-  description: "How PDFEdit handles your data and privacy.",
+  title: "Privacy Policy · NEXPDF",
+  description: "How NEXPDF handles your data and privacy.",
 };
 
 const sections = [
@@ -19,7 +19,7 @@ const sections = [
     content: (
       <>
         <p>
-          PDFEdit is a <strong>100% browser-based PDF editor</strong>. We are deeply committed to your privacy.
+          NEXPDF is a <strong>100% browser-based PDF editor</strong>. We are deeply committed to your privacy.
           The core principle is simple: <strong>your files never leave your device</strong>.
         </p>
         <p className="mt-3">
@@ -96,7 +96,7 @@ const sections = [
     color: "amber",
     content: (
       <p>
-        PDFEdit does <strong>not</strong> use tracking or advertising cookies. We may use essential
+        NEXPDF does <strong>not</strong> use tracking or advertising cookies. We may use essential
         session cookies required for the application to function correctly. No third-party advertising
         or behavioral tracking cookies are used.
       </p>
@@ -196,7 +196,7 @@ export default function PrivacyPage() {
           </div>
           <h1 className="text-5xl font-extrabold mb-5 leading-tight">Privacy Policy</h1>
           <p className="text-slate-300 text-lg max-w-xl mx-auto">
-            We built PDFEdit with a privacy-first architecture. Your documents stay on your device — always.
+            We built NEXPDF with a privacy-first architecture. Your documents stay on your device — always.
           </p>
           <p className="text-slate-500 text-sm mt-4">Last updated: January 2025</p>
         </div>
@@ -269,7 +269,7 @@ export default function PrivacyPage() {
             <h2 className="font-bold text-slate-800 text-lg mb-3">Changes to This Policy</h2>
             <p className="text-slate-600 text-sm leading-relaxed">
               We may update this policy from time to time. Changes will be reflected on this page
-              with an updated date. Continued use of PDFEdit after changes constitutes acceptance
+              with an updated date. Continued use of NEXPDF after changes constitutes acceptance
               of the updated policy.
             </p>
           </section>

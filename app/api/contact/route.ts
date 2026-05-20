@@ -13,15 +13,15 @@ export async function POST(req: NextRequest) {
     }
 
     await resend.emails.send({
-      from: "PDFEdit Contact <onboarding@resend.dev>", // use your verified domain later
+      from: "NEXPDF Contact <onboarding@resend.dev>",
       to: TO_EMAIL,
       replyTo: email,
-      subject: `[PDFEdit Contact] ${subject} — from ${name}`,
+      subject: `[NEXPDF Contact] ${subject} — from ${name}`,
       html: `
         <div style="font-family: sans-serif; max-width: 600px; margin: 0 auto;">
           <div style="background: #1e40af; padding: 24px 32px; border-radius: 12px 12px 0 0;">
             <h1 style="color: white; margin: 0; font-size: 20px;">New Contact Form Submission</h1>
-            <p style="color: #bfdbfe; margin: 4px 0 0; font-size: 14px;">PDFEdit · pdfedit.app</p>
+            <p style="color: #bfdbfe; margin: 4px 0 0; font-size: 14px;">NEXPDF · nexpdf.app</p>
           </div>
           <div style="background: white; border: 1px solid #e2e8f0; border-top: none; padding: 32px; border-radius: 0 0 12px 12px;">
             <table style="width: 100%; border-collapse: collapse;">

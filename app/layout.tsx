@@ -4,8 +4,11 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "PDFEdit — Free Online PDF Editor",
+  title: "NEXPDF — Free Online PDF Editor",
   description: "Edit PDF text, add annotations, draw and download — all in your browser. No sign-up required.",
+  icons: {
+    icon: "/icon.svg",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
