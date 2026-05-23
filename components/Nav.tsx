@@ -5,6 +5,10 @@ import { usePathname } from "next/navigation";
 export default function Nav() {
   const pathname = usePathname();
 
+
+
+
+  
   const links = [
     { href: "/", label: "Home" },
     { href: "/privacy", label: "Privacy Policy" },
