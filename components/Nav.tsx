@@ -14,6 +14,8 @@ export default function Nav() {
 
 
 
+
+
   
   return (
     <header className="bg-white border-b border-slate-200 px-6 py-4 flex items-center gap-6 sticky top-0 z-50 shadow-sm">
