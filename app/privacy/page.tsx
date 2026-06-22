@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   description: "How NEXPDF handles your data and privacy.",
 };
 
+
+
+
 const sections = [
   {
     id: "overview",
